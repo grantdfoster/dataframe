@@ -3,9 +3,9 @@
 import requests
 import pytest
 
-# local_endpoint = "http://127.0.0.1:5000/"
-local_endpoint = "https://dataframe.herokuapp.com/"
-compare_endpoint = local_endpoint + 'compare'
+# url = "http://127.0.0.1:5000/"
+url = "https://dataframe.herokuapp.com/"
+compare_endpoint = url + 'compare'
 
 def process_response(response):
     r_text = response.text
