@@ -3,7 +3,8 @@
 import requests
 import pytest
 
-local_endpoint = "http://127.0.0.1:5000/"
+# local_endpoint = "http://127.0.0.1:5000/"
+local_endpoint = "https://dataframe.herokuapp.com/"
 compare_endpoint = local_endpoint + 'compare'
 
 def process_response(response):
