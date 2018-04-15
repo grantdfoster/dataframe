@@ -8,7 +8,8 @@
 ## Initial Setup
 1. clone this repo
 2. cd into cloned repo
-3. pip install -r requirements.txt
+3. pip install pipenv
+4. pipenv install
 
 ## Local API Development Server
 *run a local API server*
@@ -19,6 +20,9 @@
 1. pytest -v
 
 ![local-development](local-development.png)
+
+## Install Packages
+1. pipenv install <package name>
 
 ## Create Endpoints
 *all endpoint development should happen in **routing.py** under app*
